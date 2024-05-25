@@ -1,0 +1,35 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.menu li {
+  background-color: #fff;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 15px 30px;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.grid_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
