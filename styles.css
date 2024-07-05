@@ -40,6 +40,29 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.bloco {
+  background-color: #fff;
+  justify-content: end;
+}
+
+.img_bikcraft {
+  display: block;
+  max-width: 100%;
+  grid-column: 2;
+}
+
+.btn_vermais {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100px;
+}
+
 footer {
   text-align: center;
   background-color: #fff;
